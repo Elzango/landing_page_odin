@@ -125,7 +125,7 @@ button {
 	width: 135px;
 	height: 135px;
 	border: 5px solid #3882F6;
-       	border-radius: 10px;
+       	border-radius: 8px;
 }
 
 .text {
@@ -146,7 +146,7 @@ button {
 .quote {
 	font-size: 36px;
 	font-style: italic;
-	font-weight: 100;
+	font-weight: 50;
 	color: #1F2937;
 	display: flex;
 	justify-content: center;
@@ -158,4 +158,55 @@ button {
 	display: flex;
         justify-content: flex-end;
 	padding: 0 50px 0 0;
+}
+
+.main3 {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding: 50px 100px;
+	color: #F9FAF8;
+}
+
+.main3-child {
+	display: flex;
+	justify-content: space-between;
+	gap: 40px;
+	background-color: #3882F6;
+	border-radius: 8px;
+	width: 1000px;
+	height: 100px;
+	padding: 20px 100px;
+}
+
+.right-child {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	border-radius: 5px;
+	padding: 5px 15px;
+	border: 2px solid #F9FAF8;
+	font-weight: 400;
+}
+
+.left-child {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.left-child-heading {
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1F2937;
+	color: #F9FAF9;
 }
